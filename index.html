@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulaire d'inscription Future Digital</title>
+
+
+</head>
+<body>
+    
+<div class="container">
+    <div class="row" id="divGlobal" >
+        <img src="IMAGE/imgbin_computer-icons-login-user-desktop-png-removebg-preview.png" alt="avatar1" class="avatarInscription">
+       <!-- le debut de formulaire -->
+      <div class="col-lg-7" >
+        <br><br>
+            <h4 >Inscrivez-vous</h4>
+            <form >
+
+               
+                <div class="form-group mt-3 mb-1">
+                    <input type="text" class="form-control"  placeholder="Nom complet " id="nom" >
+                   
+                  </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Adresse Email" name="email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control"  id="pswd1" onkeyup="checkVal()" placeholder="Enter votre mot de passe" required>
+                  <small id = "message1" >votre mot de passe doit contenir minimum 10 caractere dont 1 caractere est special </small><br>
+                  
+                </div>
+            
+                <div class="form-group">
+                    <input  type = "password"   class="form-control" id="pswd2" onkeyup="isMatched()" placeholder="Confirmer votre mot de passe" required>
+                    <small id = "message2"> </small> 
+                  </div>
+            
+              <div id="txt1"></div>
+                <div  id="checkUser">
+                  <label><input type="checkbox" > se souvenez de moi</label>
+                </div>
+            
+                <button type="submit" class="btn btn-dark" id="btnSinscrire" >S'inscrire</button><br>
+              
+                <div class="btns_inscription">  
+            
+                    <a  id="googleBtn"  class="btn btn-info " href="#">  <img src="https://img.icons8.com/color/16/000000/google-logo.png"> S'inscrire avec GOOGLE</a> 
+                 <br>
+                    <a  id="facebookBtn"  class="btn btn-primary " href="#"><img src="https://img.icons8.com/color/16/000000/facebook-logo.png"> S'inscrire avec FACBOOK</a>
+                   
+                </div>
+            
+            </form>
+     
+</div>
+              <!-- la fin de formulaire -->
+
+
+        <!-- div image  -->
+         <div class="col-lg-5" id="divImage">
+          <img src="IMAGE/Capture_-_Copie-removebg-preview.png" alt="not found" >
+       
+         </div>
+       <!-- fin div image  -->
+
+      
+
+   
+   
+    </div>
+</div>
+
+
+ 
+  
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

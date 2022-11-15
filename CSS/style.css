@@ -1,0 +1,56 @@
+
+/*pour definir les dimentions de div du formulaire et de l'image */
+
+
+img{
+    /*permet a l'image de prend tout la taille de l'element div */
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0%;
+}
+
+#checkUser{
+
+ /* l'element doit être placé sur  le côté gauche de son conteneur */ 
+float: left;
+}
+
+#btnSinscrire{
+  /* l'element doit être placé sur  le côté droit de son conteneur */ 
+    float: right;
+    border: 0;
+}
+
+.btns_inscription{
+     /* permet de donner l'espace en haut de l'elemeent */ 
+    margin-top: 10%;
+    text-align: center;
+}
+
+#facebookBtn{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+#divGlobal{
+    align-items: center;
+
+    position: absolute;
+    
+    margin: 10%;
+    border: 1px solid black;
+}
+
+.avatarInscription{
+    border: 1px solid black;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin-top: -3%;
+    margin-left: 3%;
+    border: none;
+}
+
+
